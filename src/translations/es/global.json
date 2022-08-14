@@ -8,9 +8,6 @@
     "skills": "Habilidades",
     "contact": "Contacto"
   },
-  "header": {
-    "habla": "hello"
-  },
   "intro": {
     "myname": "Hola, mi nombre es:",
     "subtitle": "Construyo cosas en la web.",
@@ -100,11 +97,11 @@
   "projects": {
     "title": "Proyectos",
     "tech": "Tecnologías:",
-    "description1": "Estos son algunos de mis mejores proyectos.",
-    "description2": "Si quieres ver más proyectos, solo haz clic en el botón de abajo",
+    "description_first": "Estos son algunos de mis mejores proyectos.",
+    "description_below": "Si quieres ver más proyectos, solo haz clic en el botón de abajo",
     "button": "Más proyectos",
-    "projectsLevelsTitle": ["Básico", "Medio", "Difícil"],
-    "projectsLevelsDescription": ["Un proyecto lo considero básico generalmente cuando son simples páginas estaticas o proyectos que usan poca lógica.", "Un proyecto lo considero intermedio cuando ya se comienza a emplear una lógica mas robusta o comienza a usar backend o logins.", "Un proyecto lo considero avanzado cuando este demora mas de una semana, puede incluir testing, emplea una algoritmia algo compleja, y tiene bastantes funcionalidades."]
+    "projectsLevelsTitle": ["Frontend", "Backend", "Extra"],
+    "projectsLevelsDescription": ["Estos son algunos proyectos funcionales que hice en el lado del frontend.", "Estos son algunos proyectos que involucran Testing, SQL y desarrollo de API’s.", "Estos son algunos proyectos mas allá del desarrollo web."]
   },
   "skills": {
     "title": "Habilidades",

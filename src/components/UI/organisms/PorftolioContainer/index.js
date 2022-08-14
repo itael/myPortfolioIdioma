@@ -7,8 +7,8 @@ import ExperienceDiv from '../VerticalTimeline';
 import './index.css';
 import AccordionDiv from '../../molecules/AccordionDiv';
 import ProyectsDiv from '../../molecules/ProyectsDiv';
-import CV_ESpdf from '../../../../assets/CV-Work.pdf';
-import CVpdf from '../../../../assets/CV-Works.pdf';
+import CV_ESpdf from '../../../../assets/MyCV-ES.pdf';
+import CVpdf from '../../../../assets/MyCV-EN.pdf';
 import SocialMediaBar from '../SocialMediaBar/SocialMediaBar';
 
 const PortfolioContainer = () => {
@@ -52,12 +52,14 @@ const PortfolioContainer = () => {
           <p className='mb-4'>{t('edu.description_first')}</p>
           <ExperienceDiv />
           <p className='my-6'>{t('edu.descriptionCV')}</p>
-          <PortfolioButton title={t('edu.button')} url={t('exp.CV_EN') ? CVpdf : CV_ESpdf} />
+          <PortfolioButton title={t('edu.button')} url={t('edu.CV_EN') ? CVpdf : CV_ESpdf} />
         </PortfolioSectionDiv>
 
         <PortfolioSectionDiv sectionIndex={5} titleName={t('projects.title')} sectionID={'projects'}>
-          <p>{t('projects.description1')}</p>
+          <p>{t('projects.description_first')}</p>
           <ProyectsDiv />
+          <p className='mt-6 mb-4'>{t('edu.descriptionCV')}</p>
+          <PortfolioButton title={t('projects.button')} url={'https://github.com/pieropr2k'} classDiv='w-[9.75rem]' isGithubLogo={true}/>
         </PortfolioSectionDiv>
 
         <PortfolioSectionDiv sectionIndex={6} titleName={t('skills.title')} sectionID={'skills'}>
@@ -72,7 +74,7 @@ const PortfolioContainer = () => {
           </div>
         </PortfolioSectionDiv>
       </main>
-      <footer className='flex flex-col bg-blue-900 dark:bg-gray-800 px-8 py-6 border__footer md:pl-28 md:pr-12 xl:pr-28 text-white'>
+      <footer className='flex flex-col bg-sky-100 dark:bg-gray-800 text-gray-900 dark:text-slate-200 px-8 py-6 border__footer md:pl-28 md:pr-12 xl:pr-28'>
         <code className='flex justify-center mb-3'>{t('footer.title')}
           <img src='https://flagpedia.net/data/flags/w580/pe.png' width={35} className={'ml-2 final-flag'} alt='Peru'></img>
         </code>

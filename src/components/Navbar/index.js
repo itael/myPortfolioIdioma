@@ -8,7 +8,7 @@ const Navbar = () => {
   const [t] = useTranslation('global');
   const SocialMedia = [
     { name: "Twitter", link: "https://twitter.com/ppr2k" },
-    { name: "Linkedin", link: "https://www.linkedin.com/in/piero-pilco-reynoso-585848128/" },
+    { name: "Linkedin", link: "https://www.linkedin.com/in/piero-pilco-reynoso/" },
     { name: "Github", link: "https://github.com/pieropr2k" },
     { name: "Youtube", link: "https://www.youtube.com/channel/UCzS8zk0tj_-KAi7ljZZ85cw" }
   ]
