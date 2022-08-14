@@ -59,7 +59,7 @@ const PortfolioContainer = () => {
           <p>{t('projects.description_first')}</p>
           <ProyectsDiv />
           <p className='mt-6 mb-4'>{t('edu.descriptionCV')}</p>
-          <PortfolioButton title={t('projects.button')} url={'https://github.com/pieropr2k'} classDiv='w-[9.75rem]' isGithubLogo={true}/>
+          <PortfolioButton title={t('projects.button')} url={'https://github.com/pieropr2k'} classDiv='w-40' isGithubLogo={true}/>
         </PortfolioSectionDiv>
 
         <PortfolioSectionDiv sectionIndex={6} titleName={t('skills.title')} sectionID={'skills'}>
