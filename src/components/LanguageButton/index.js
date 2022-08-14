@@ -17,7 +17,7 @@ const LanguageButton = () => {
                     !isSpanish
                     ? "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" 
                     : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"
-                } width="35" class="final-flag" alt="Peru"/>
+                } width="35" className="final-flag" alt="Language"/>
                 <p className='text-sm  dark:text-gray-300'>{t('navbar.language')}</p>
             </div>
         </>

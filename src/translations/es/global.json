@@ -3,7 +3,7 @@
     "language": "English",
     "about": "Info",
     "service": "Servicio",
-    "exp": "Experiencia",
+    "exp": "Educación",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "contact": "Contacto"
@@ -14,13 +14,13 @@
   "intro": {
     "myname": "Hola, mi nombre es:",
     "subtitle": "Construyo cosas en la web.",
-    "description": "Soy un estudiante de Ciencia de la Computación que reside en Lima, Peru de la Universidad Nacional de Ingenieria que sabe demasiado sobre matemática y es capaz de contactarse con personas de habla inglesa.",
+    "description": "Soy un estudiante de Ciencia de la Computación que reside en Lima, Peru de la Universidad Nacional de Ingenieria. Soy desarrollador web desde el 2020 y me considero una persona autodidacta.",
     "button": "Ponte en contacto"
   },
   "about": {
     "title": "Sobre mi",
-    "description1": "Hola! Soy Piero, un desarrollador de software que disfruta construir proyectos. Actualmente estoy aprendiendo sobre Machine Learning tambien. Soy una persona disciplinada y responsable.",
-    "description2": "Estas son algunas tecnologías con las que yo he trabajado recientemente:"
+    "description1": "¡Hola! Soy Piero, un desarrollador de software que disfruta desarrollar proyectos. Actualmente estoy aprendiendo sobre Machine Learning. Me considero una persona disciplinada y responsable.",
+    "description2": "Estas son algunas tecnologías con las que he trabajado recientemente:"
   },
   "services": {
     "title": "Servicios",
@@ -28,23 +28,23 @@
     "services": [
       {
         "title": "Matemática",
-        "description": "Soy una persona que tiene una alta capacidad lógica y me gustan las matemáticas: cómo funcionan o cómo se pueden aplicar, y disfruto resolviendo problemas matemáticos, incluso más si los problemas son los de mayor dificultad."
+        "description": "Soy una persona que tiene interés en esta ciencia y me parece interesante sus aplicaciones en la computación, además cuento con una robusta capacidad lógica. Es interesante cuando creas una solución en programación en un menor tiempo gracias a esta ciencia."
       },
       {
         "title": "Programación",
-        "description": "La programación tiene mucho potencial, y por el momento me interesan los temas de Data Science y el desarrollo de Blockchain."
+        "description": "La programación tiene mucho potencial, y me interesan bastante los temas de Data Science y el desarrollo de Blockchain."
       },
       {
         "title": "Finanzas",
-        "description": "Si eres una fintech, bueno honestamente quiero aplicar todo mi conocimiento a un proyecto relacionado con las finanzas en este momento."
+        "description": "Si eres una fintech, me interesaría demasiado aplicar todo mi conocimiento a un proyecto relacionado con las finanzas."
       },
       {
         "title": "Inglés",
-        "description": "Si eres de un país de habla inglesa, no hay problema. Soy capaz de tener conversaciones con personas de habla inglesa."
+        "description": "Si eres de un país de habla inglesa, me considero una persona capaz de tener conversaciones con personas de habla inglesa sin problemas."
       },
       {
         "title": "Diseño",
-        "description": "Hago bonitas paginas que brinden una experiencia comoda al cliente."
+        "description": "Desarrollo sitios web personalizados que brinden una experiencia comoda al cliente."
       },
       {
         "title": "Pedagogía",
@@ -52,51 +52,48 @@
       }
     ]
   },
-  "exp": {
-    "title": "Experiencia",
-    "description1": "Esta es mi experiencia laboral:",
-    "exp": [
+  "edu": {
+    "title": "Educación",
+    "description_first": "Estos son los cursos con los cuales me he capacitado. Pueden acceder a ellos con los links que estoy dejando.",
+    "edu": [
       {
-        "experienceYear": "2022",
-        "experienceTitle": "Call Center",
-        "experienceDescription": [
-          "He estado trabajando en atencion al cliente."
-        ]
+        "educationTime": "2022-act",
+        "educationTitle": "OpenBootcamp",
+        "educationCareer": "Curso de Django",
+        "educationDescription": [
+          "En este Bootcamp de España, actualmente estoy aprendiendo Django. Este bootcamp es muy bueno y es gratis."
+        ],
+        "educationURL": ["Enlace: ", "https://open-bootcamp.com/"]
       },
       {
-        "experienceYear": "2021",
-        "experienceTitle": "Pintar Casas",
-        "experienceDescription": [
-          "He pintado las paredes del pasadiso de los inquilinos."
-        ]
+        "educationTime": "2022-act",
+        "educationTitle": "Fullstackopen",
+        "educationCareer": "Stack MERN",
+        "educationDescription": [
+          "En este curso aprendí más profundamente sobre el stack MERN y construí 5 proyectos. Todavía estoy haciendo este curso. Es gratis."
+        ],
+        "educationURL": ["Enlace: ", "https://fullstackopen.com/"]
       },
       {
-        "experienceYear": "2020",
-        "experienceTitle": "Pintar Casas",
-        "experienceDescription": [
-          "He pintado el baño de la casa y algunos cuartos de los futuros inquilinos."
-        ]
+        "educationTime": "2020",
+        "educationTitle": "Freecodecamp",
+        "educationCareer": "Algoritmos Y Estructuras de Datos con JavaScript",
+        "educationDescription": [
+          "Aprendí Programación Orientada a Objetos por primera vez con este curso de Freecodecamp."
+        ],
+        "educationURL": ["Enlace: ", "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"]
       },
       {
-        "experienceYear": "2017",
-        "experienceTitle": "Venta de Rifas",
-        "experienceDescription": [
-          "Vendí rifas en la calle.",
-          "Vendí 7 rifas cada dia.",
-          "Gané 40 soles (13 dolares) en un dia como máximo."
-        ]
-      },
-      {
-        "experienceYear": "2014",
-        "experienceTitle": "Venta de Rifas",
-        "experienceDescription": [
-          "Vendí rifas en los condominios.",
-          "Vendí 13 rifas cada dia.",
-          "Gané 50 soles (17 dolares) en un dia como máximo."
-        ]
+        "educationTime": "2019-act",
+        "educationTitle": "Universidad Nacional de Ingeniería - Peru",
+        "educationCareer": "Ciencia de la Computación",
+        "educationDescription": [
+          "Esta es la universidad donde estudio Ciencia de la Computación. Allí aprendí a programar por primera vez, C++ fue mi primer lenguaje de programación. También he aprendido de manera más profunda sobre programación orientada a objetos y bases de datos."
+        ],
+        "educationURL": []
       }
     ],
-    "description2": "Si quieres ver mi CV, solo has clic aquí en el boton de abajo:",
+    "descriptionCV": "Si quieres ver mi CV, solo has clic aquí en el boton de abajo:",
     "button": "Descargar CV",
     "CV_EN": false
   },
@@ -111,14 +108,14 @@
   },
   "skills": {
     "title": "Habilidades",
-    "description": "Actualmente estoy mejorando mi portfolio y mis habilidades de programación. Estoy interesado en trabajar como Data Scientist a futuro y actualmente estoy aprendiendo Machine Learning. Estas son algunas habilidades que tengo:",
-    "front": "He estado trabajando por 2 años con estas tecnologías. Puedo hacer aplicaciones web responsivas hermosas y funcionales.",
+    "description": "Siempre estoy mejorando mis habilidades de programación. Estoy interesado en trabajar como Data Scientist a futuro y actualmente estoy aprendiendo Machine Learning. Estas son algunas habilidades que tengo:",
+    "front": "He estado trabajando por 2 años con estas tecnologías. Puedo hacer aplicaciones web funcionales con un diseño personalizado y responsive.",
     "back": "He estado trabajando con estos durante 1 año. Soy bueno en las consultas SQL.",
     "extra": "Hay algunas tecnologías con las que he estado trabajando, estas son para las áreas de Blockchain y Machile Learning, y también C++ el cual mi primer lenguaje de programación."
   },
   "contact": {
     "title": "Contacto",
-    "description": "Hoy en día estoy abierto a todos ustedes. Si necesita un servicio freelance también estoy disponible, mi bandeja de entrada está abierta y puedo responder rápidamente. Solo haz clic en el botón de abajo para contactarme.",
+    "description": "Hoy en día estoy abierto a todo público. Si necesitas un servicio freelance estoy disponible, mi bandeja de entrada está abierta y puedo responder rápidamente. Solo haz clic en el botón de abajo para contactarme.",
     "button": "Contáctame"
   },
   "footer": {

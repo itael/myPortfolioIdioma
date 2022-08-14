@@ -6,7 +6,18 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './index.html'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
+        'auto-fill': 'repeat(auto-fill, minmax(0, 1fr))',
+        // Simple 10 column grid with auto-fill
+        'auto-fill-skills': 'repeat(auto-fill, minmax(6.5rem, 1fr))',
+      },
+      gridTemplateRows: {
+        'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
+        'auto-fill': 'repeat(auto-fill, minmax(0, 1fr))',
+      }
+    },
     screens: {
       'xsm': '355px',
       // => @media (min-width: 640px) { ... }

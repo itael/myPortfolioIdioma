@@ -38,7 +38,7 @@ const Navbar = () => {
           {
             Links.map((link) => (
               <li key={link.name} className='nr:ml-7 text-lg nr:my-0 my-4'>
-                <a href={link.link} className='text-gray-800 dark:text-white dark:hover:text-gray-400 hover:text-gray-400 duration-500 '>
+                <a href={link.link} onClick={() => setOpen(!open)} className='text-gray-800 dark:text-white dark:hover:text-gray-400 hover:text-gray-400 duration-500 '>
                   <code className='text-base'>{`<${link.name}/>`}</code>
                 </a>
               </li>

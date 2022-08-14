@@ -3,7 +3,7 @@
     "language": "Español",
     "about": "About",
     "service": "Service",
-    "exp": "Experience",
+    "exp": "Education",
     "projects": "Projects",
     "skills": "Skills",
     "contact": "Contact"
@@ -14,12 +14,12 @@
   "intro": {
     "myname": "Hi, my name is:",
     "subtitle": "I build things for the web.",
-    "description": "I’m a Computer Science student from the Universidad Nacional de Ingenieria based in Lima, Peru who knows a lot about math and is able to contact with english speakers.",
+    "description": "I’m a Computer Science student from the Universidad Nacional de Ingenieria based in Lima, Peru. I'm web developer since 2020 and I consider myself a self taught person.",
     "button": "Get in touch"
   },
   "about": {
     "title": "About me",
-    "description1": "Hello! I’m Piero, a software developer who enjoys building projects. I'm currently learning about Machine Learning too. I'm a disciplined and responsable person.",
+    "description1": "Hello! I’m Piero, a software developer who enjoys building projects. I'm currently learning about Machine Learning. I'm a disciplined and responsable person.",
     "description2": "Here are a few technologies I’ve been working with recently:"
   },
   "services": {
@@ -28,23 +28,23 @@
     "services": [
       {
         "title": "Math",
-        "description": "I am a person who has a high logical ability and I like mathematics: how it works or how it can be applied, and I enjoy solving mathematical problems, even more if the problems are the most difficult ones."
+        "description": "I’m a person who is interested in this science and it’s amazing its aplication on Computer Science, I also have a strong logical capacity. It’s exciting when you develop a programming solution in less time thanks to this science."
       },
       {
         "title": "Programming",
-        "description": "Programming has a lot of potential, and I'm interested for the moment in Data Science topics and Blockchain development."
+        "description": "Programming has a lot of potential, and I'm interested in Data Science topics and Blockchain development."
       },
       {
         "title": "Finance",
-        "description": "If you're a fintech, well honestly I want to apply all of my knowledge to a proyect that's related to finance just now."
+        "description": "If you're a fintech, I'm so interested to apply all of my knowledge to a finance project."
       },
       {
         "title": "English",
-        "description": "If you're from a english speaking country, no problem. I'm able to have conversations with native english speakers."
+        "description": "If you're from a english speaking country, there's no problem. I'm able to have conversations with native english speakers."
       },
       {
         "title": "Design",
-        "description": "I make beautiful responsive websites that provide a comfortable experience to the client."
+        "description": "I make personalized responsive websites that provide a comfortable experience to the client."
       },
       {
         "title": "Teaching",
@@ -52,51 +52,48 @@
       }
     ]
   },
-  "exp": {
-    "title": "Experience",
-    "description1": "This is my work experience:",
-    "exp": [
+  "edu": {
+    "title": "Education",
+    "description_first": "These are courses which I have trained. You could access to them with the links that I’m leaving.",
+    "edu": [
       {
-        "experienceYear": "2022",
-        "experienceTitle": "Call Center",
-        "experienceDescription": [
-          "I was working in customer support."
-        ]
+        "educationTime": "2022-act",
+        "educationTitle": "OpenBootcamp",
+        "educationCareer": "Django Course",
+        "educationDescription": [
+          "In this Spanish Bootcamp I'm currently learning Django. This bootcamp is amazing and is free."
+        ],
+        "educationURL": ["Link: ", "https://open-bootcamp.com/"]
       },
       {
-        "experienceYear": "2021",
-        "experienceTitle": "House Painter",
-        "experienceDescription": [
-          "I painted the hallway walls of the tenants."
-        ]
+        "educationTime": "2022-act",
+        "educationTitle": "Fullstackopen",
+        "educationCareer": "MERN Stack",
+        "educationDescription": [
+          "In this course I've learned deeper about the MERN stack and I've build 5 projects. I'm still doing this course. Is free."
+        ],
+        "educationURL": ["Link: ", "https://fullstackopen.com/"]
       },
       {
-        "experienceYear": "2020",
-        "experienceTitle": "House Painter",
-        "experienceDescription": [
-          "I painted the house's bathroom and some rooms of the future tenants."
-        ]
+        "educationTime": "2020",
+        "educationTitle": "Freecodecamp",
+        "educationCareer": "JavaScript Algorithms and Data Structures",
+        "educationDescription": [
+          "I've learned OOP for the first time with this course from this platform."
+        ],
+        "educationURL": ["Link: ", "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"]
       },
       {
-        "experienceYear": "2017",
-        "experienceTitle": "Raffles Sales",
-        "experienceDescription": [
-          "I sold Raffles on the street.",
-          "I sold 7 raffles each day.",
-          "I earned 40 soles (13 usd) at most in one day."
-        ]
-      },
-      {
-        "experienceYear": "2014",
-        "experienceTitle": "Raffles Sales",
-        "experienceDescription": [
-          "I sold in the condominiums.",
-          "I sold 13 raffles each day.",
-          "I earned 50 soles (17 usd) at most in one day."
-        ]
+        "educationTime": "2019-act",
+        "educationTitle": "National University of Engineering - Peru",
+        "educationCareer": "Computer Science",
+        "educationDescription": [
+          "This is my university. I've learned programming for the first time there, C++ was my first programming language. Also I've learned about deeper about OOP and Databases."
+        ],
+        "educationURL": []
       }
     ],
-    "description2": "If you wanna see my CV, just click here in the bottom below:",
+    "descriptionCV": "If you wanna see my CV, just click here in the bottom below:",
     "button": "Download CV",
     "CV_EN": true
   },
@@ -111,10 +108,10 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "I'm currenly improving my portfolio and my programming skills. I'm interested in working as Data Scientist for the future and currently I'm learning about Machine Learning. These are some skills that I have:",
-    "front": "I've been working with these technologies for the past 2 years. I'm able to do beautiful and functional responsive web-apps.",
+    "description": "I'm always improving my programming skills. I'm interested in working as Data Scientist for the future and currently I'm learning about Machine Learning. These are some skills that I have:",
+    "front": "I've been working with these technologies for the past 2 years. I'm able to do personalized and functional responsive web-apps.",
     "back": "I've been working with these technologies for around 1 year. I'm good at the SQL queries.",
-    "extra": "There are some technologies I've been working with, these are for Blockchain and Machine Learning areas, and also C++ which was my 1st programming language."
+    "extra": "There are some technologies I've been working with beyond the web development."
   },
   "contact": {
     "title": "Contact",

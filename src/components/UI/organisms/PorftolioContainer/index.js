@@ -48,11 +48,11 @@ const PortfolioContainer = () => {
           </div>
         </PortfolioSectionDiv>
 
-        <PortfolioSectionDiv sectionIndex={4} titleName={t('exp.title')} sectionID={'experience'}>
-          <p className='mb-4'>{t('exp.description1')}</p>
+        <PortfolioSectionDiv sectionIndex={4} titleName={t('edu.title')} sectionID={'experience'}>
+          <p className='mb-4'>{t('edu.description_first')}</p>
           <ExperienceDiv />
-          <p className='my-6'>{t('exp.description2')}</p>
-          <PortfolioButton title={t('exp.button')} url={t('exp.CV_EN') ? CVpdf : CV_ESpdf} />
+          <p className='my-6'>{t('edu.descriptionCV')}</p>
+          <PortfolioButton title={t('edu.button')} url={t('exp.CV_EN') ? CVpdf : CV_ESpdf} />
         </PortfolioSectionDiv>
 
         <PortfolioSectionDiv sectionIndex={5} titleName={t('projects.title')} sectionID={'projects'}>
