@@ -54,7 +54,7 @@
     "description_first": "These are courses which I have trained. You could access to them with the links that I’m leaving.",
     "edu": [
       {
-        "educationTime": "2022-act",
+        "educationTime": "2022-now",
         "educationTitle": "OpenBootcamp",
         "educationCareer": "Django Course",
         "educationDescription": [
@@ -63,7 +63,7 @@
         "educationURL": ["Link: ", "https://open-bootcamp.com/"]
       },
       {
-        "educationTime": "2022-act",
+        "educationTime": "2022-now",
         "educationTitle": "Fullstackopen",
         "educationCareer": "MERN Stack",
         "educationDescription": [
@@ -81,7 +81,7 @@
         "educationURL": ["Link: ", "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"]
       },
       {
-        "educationTime": "2019-act",
+        "educationTime": "2019-now",
         "educationTitle": "National University of Engineering - Peru",
         "educationCareer": "Computer Science",
         "educationDescription": [
